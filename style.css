@@ -1,0 +1,28 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+header {
+	background-color: #37383a;
+	padding: 25px;
+	display: flex;
+	justify-content: space-around;
+}
+.search{
+	background-color: #fff;
+	border-radius: 50px;
+	height: 25px;
+	width: 150px;
+}
+ul{
+	display: flex;
+}
+li{
+	margin-left: 10px;
+}
+a{
+	color: #fff;
+}
