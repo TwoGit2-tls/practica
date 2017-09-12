@@ -3,26 +3,42 @@
 	padding: 0;
 	text-decoration: none;
 	list-style: none;
+	font-family: arial;
 }
 
 header {
 	background-color: #37383a;
 	padding: 25px;
 	display: flex;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 .search{
 	background-color: #fff;
 	border-radius: 50px;
-	height: 25px;
-	width: 150px;
+	height: 30px;
+	width: 300px;
+}
+i{
+	margin-left: 10px;
+	color: grey;
+	padding: 5px;
+}
+nav{
+	margin-right: 50px
 }
 ul{
 	display: flex;
 }
 li{
-	margin-left: 10px;
+	margin-left: 20px;
 }
 a{
 	color: #fff;
+}
+h1{
+	font-size: 20px;
+	font-weight: 100;
+}
+main{
+	padding: 50px;
 }
